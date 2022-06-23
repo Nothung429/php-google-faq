@@ -6,40 +6,118 @@
 }
 body {
     font-family: 'Poppins', sans-serif;
+    position: relative;
+}
+.color1 {
+    color: #5f6668;
+}
+.color2 {
+    color: #cbcbcb;
+}
+.color3 {
+    color: #3367d6;
+}
+.color4 {
+    color: #7e57c2;
+}
+.color5 {
+    color: #3c4043;
+}
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
 }
 /*------ header ------*/
 header {
-    height: 120px;
-    background-color: red;
+    border-bottom: 3px solid #cbcbcb;
+    padding: 10px;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: #fff;
+}
+.header-top, .header-bottom {
+    display: flex;
+    align-items: center;
+    height: 50px;
 }
 .header-top {
-    display: flex;
     justify-content: space-between;
 }
-.logo {
+/*------ header top ------*/
+.logo, .account {
     display: flex;
     align-items: center;
 }
 .logo img {
-    max-height: 50px;
+    max-height: 40px;
+    margin-right: 20px;
 }
-.account {
+.logo span {
+    font-size: 26px;
+}
+.account > * {
+    margin-right: 20px;
+    font-size: 22px;
+}
+.account i {
+    color: #5f6668;
+}
+.account p {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 40px;
+    color: #fff;
+    background-color: #7e57c2;
+}
+/*------ header bottom ------*/
+.header-navbar ul {
     display: flex;
 }
-/*------ header ------*/
+.header-navbar ul li {
+    margin-right: 18px;
+}
+.header-navbar ul li a {
+    color: #5f6668;
+}
+.header-navbar ul li a:hover {
+    color: #3367d6;
+    border-bottom: 2px solid #3367d6;
+}
+/*------ main ------*/
 main {
     max-width: 1200px;
-    height: calc(100vh - 200px);
+    padding-top: 140px;
     margin: auto;
-    overflow-y: auto;
 }
 main h2, main h3 {
     padding: 20px 0;
+    color: #3c4043;
+}
+main a {
+    color: #3367d6;
 }
 main p {
     margin-bottom: 20px;
 }
+/*------ footer ------*/
 footer {
-    height: 80px;
-    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 30px;
+    background-color: #cbcbcb;
+}
+.footer-navbar ul {
+    display: flex;
+}
+.footer-navbar ul li {
+    margin-right: 18px;
+}
+.footer-navbar ul li a {
+    color: #3c4043;
 }
