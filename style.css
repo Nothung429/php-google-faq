@@ -1,7 +1,6 @@
 /*------ general ------*/
 * {
     margin: 0;
-    padding: 0;
     box-sizing: border-box;
 }
 body {
@@ -22,9 +21,6 @@ body {
 }
 .color5 {
     color: #3c4043;
-}
-li {
-    list-style: none;
 }
 a {
     text-decoration: none;
@@ -80,6 +76,7 @@ header {
 }
 .header-navbar ul li {
     margin-right: 18px;
+    list-style: none;
 }
 .header-navbar ul li a {
     color: #5f6668;
@@ -117,6 +114,7 @@ footer {
 }
 .footer-navbar ul li {
     margin-right: 18px;
+    list-style: none;
 }
 .footer-navbar ul li a {
     color: #3c4043;
