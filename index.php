@@ -67,7 +67,7 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
             <div class="header-top">
                 <div class="logo">
                     <img src="https://www.google.it/images/branding/googlelogo/2x/googlelogo_color_160x56dp.png" alt="logo">
-                    <span>Privacy e Termini</span>
+                    <span class="color1">Privacy e Termini</span>
                 </div>
                 <div class="account">
                     <i class="fa-solid fa-list-ul"></i>
@@ -75,13 +75,13 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
                 </div>
             </div>
             <div class="header-bottom">
-                <div class="navbar">
+                <div class="header-navbar">
                     <ul>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
-                        <li><a href="#">Home</a></li>
+                        <li><a href="#">Introduzione</a></li>
+                        <li><a href="#">Norme sulla privacy</a></li>
+                        <li><a href="#">Termini di servizio</a></li>
+                        <li><a href="#">Tecnologie</a></li>
+                        <li><a href="#">Domande frequenti</a></li>
                     </ul>
                 </div>
             </div>
@@ -95,7 +95,23 @@ Gestire il “Database” e la visualizzazione di queste domande e risposte con 
         </main>
 
         <footer>
-
+            <div class="footer-navbar">
+                <ul>
+                    <li><a href="#">Google</a></li>
+                    <li><a href="#">Tutto su Google</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Termini</a></li>
+                </ul>
+            </div>
+            <div class="footer-select">
+                <select name="" id="">
+                    <option value="">Italiano</option>
+                    <option value="">Inglese</option>
+                    <option value="">Tedesco</option>
+                    <option value="">Spagnolo</option>
+                    <option value="">Francese</option>
+                </select>
+            </div>
         </footer>
     </body>
 </html>
