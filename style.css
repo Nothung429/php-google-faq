@@ -1,0 +1,45 @@
+/*------ general ------*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+}
+/*------ header ------*/
+header {
+    height: 120px;
+    background-color: red;
+}
+.header-top {
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    display: flex;
+    align-items: center;
+}
+.logo img {
+    max-height: 50px;
+}
+.account {
+    display: flex;
+}
+/*------ header ------*/
+main {
+    max-width: 1200px;
+    height: calc(100vh - 200px);
+    margin: auto;
+    overflow-y: auto;
+}
+main h2, main h3 {
+    padding: 20px 0;
+}
+main p {
+    margin-bottom: 20px;
+}
+footer {
+    height: 80px;
+    background-color: blue;
+}
